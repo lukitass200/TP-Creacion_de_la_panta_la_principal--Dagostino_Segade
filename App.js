@@ -15,9 +15,9 @@ export default function App() {
       </View>
 
     
+
+      <View style={{display:'flex' , alignItems : 'center', width: "100vw"}}>
       <Image source={img} />
-      <View style={{display:'flex' , justifyContent:'center', flexDirection:"column", backgroundColor: "blue", width: "100vw"}}>
-  
         <TextInput style={styles.input} placeholder="Usuario/Gmail" placeholderTextColor="#a85bbd"  />
         <TextInput style={styles.input} placeholder="Contraseña" placeholderTextColor="#a85bbd" />
       </View>
