@@ -1,6 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { View, TextInput, TouchableOpacity, Text, StyleSheet } from 'react-native';
+import { View, TextInput, TouchableOpacity, Text, StyleSheet, Image } from 'react-native';
+
+
 
 export default function App() {
   return (
@@ -55,7 +57,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     width:350,
     marginVertical: 10,
-    margin:5
+    margin:5,
   },
   button: {
     backgroundColor: '#c4b3e6',
